@@ -1102,5 +1102,821 @@
     "target_model": "gemini-nano-banana-2.1",
     "target_model_status": "not_tested",
     "preview": null
+  },
+  {
+    "id": "NB049",
+    "slug": "catalog-front-lock",
+    "category": "product",
+    "title": {
+      "zh": "服装目录：统一正面主图",
+      "en": "Catalog: locked front-view setup"
+    },
+    "aspect_ratio": "2:3",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：服装目录：统一正面主图。建议画幅：2:3，请在客户端设置。\n图1为获授权的真实夹克正面照片；图2为本目录批准的摄影基准，只提供衣架、背景和光线。将图1夹克正面朝向镜头，挂在图2的深色扁木衣架上，居中于浅灰背景。使用相同机位和柔光，衣服下摆距画底约15%。保留口袋、扣子、面料、颜色和原有标识，不添加文字或配饰。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Catalog: locked front-view setup. Suggested aspect ratio: 2:3; set this in your client.\nImage 1 is the authorized front photo of the actual jacket. Image 2 is the approved catalog setup, providing only hanger, backdrop and lighting. Present the jacket facing the camera on that dark flat wooden hanger, centered against pale gray. Match camera height and soft light; leave about 15% below the hem. Preserve pockets, fasteners, fabric, color and existing marks. Add no lettering or accessories.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "与真实正面核对口袋位置、扣子数量、袖长；再对比基准图衣架角度和留白。",
+      "en": "Compare pockets, button count and sleeve length to the real front; then compare hanger angle and margins to the setup reference."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X002",
+        "section": "Step 1–2: house shot and front"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB050",
+    "slug": "catalog-back-evidence",
+    "category": "product",
+    "title": {
+      "zh": "服装目录：有实物依据的背面",
+      "en": "Catalog: evidence-based garment back"
+    },
+    "aspect_ratio": "2:3",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：服装目录：有实物依据的背面。建议画幅：2:3，请在客户端设置。\n图1必须是同一件衣服的真实背面照片，图2是已批准的正面目录图，仅参考摄影设置。基于图1重拍背面，沿用图2的背景、衣架、机位和阴影柔度。准确保留背面拼接、褶皱结构、图案与标签。若没有背面参考，不猜测背印或结构，停止并要求补图。无新增文字。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Catalog: evidence-based garment back. Suggested aspect ratio: 2:3; set this in your client.\nImage 1 must show the actual back of the garment; image 2 is the approved front catalog shot and supplies setup only. Rephotograph the back using image 2’s backdrop, hanger, camera and shadow softness. Retain back panels, construction folds, artwork and labels from image 1. If the back reference is absent, do not invent unseen prints or construction: request it instead. No new text.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "背面图案必须来自真实背面，不能把正面口袋复制到背面。",
+      "en": "Back artwork must come from the real back; never copy front pockets onto the rear."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X002",
+        "section": "Step 3: back view and its caveat"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB051",
+    "slug": "catalog-two-reference-fit",
+    "category": "product",
+    "title": {
+      "zh": "服装目录：双参考上身图",
+      "en": "Catalog: two-reference on-body shot"
+    },
+    "aspect_ratio": "2:3",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：服装目录：双参考上身图。建议画幅：2:3，请在客户端设置。\n图1提供真实服装身份，图2提供经授权的成年模特身份。让图2人物在柔光浅灰摄影棚中穿图1服装，全身三分之四视角，双臂自然下垂，不遮挡门襟。用炭灰长裤和素色帆布鞋作为配搭。保持人物脸型、发型及肤色，服装的领口、扣位、口袋和长度不得重设计。无新增文字。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Catalog: two-reference on-body shot. Suggested aspect ratio: 2:3; set this in your client.\nImage 1 defines the real garment; image 2 defines the authorized adult model. Dress that person in the garment in a softly lit pale-gray studio, full-body three-quarter view, arms relaxed clear of the fastening. Pair with charcoal trousers and plain canvas shoes. Preserve face, hair and skin tone; do not redesign collar, closures, pockets or garment length. Add no lettering.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "分别核对模特身份与衣服结构，袖口不能与手指融合。",
+      "en": "Check model identity and garment construction separately; cuffs must not merge into fingers."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X002",
+        "section": "Step 4: garment and model references"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB052",
+    "slug": "catalog-flatlay-scale",
+    "category": "product",
+    "title": {
+      "zh": "服装目录：比例可信的平铺图",
+      "en": "Catalog: garment flat lay with scale"
+    },
+    "aspect_ratio": "4:5",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：服装目录：比例可信的平铺图。建议画幅：4:5，请在客户端设置。\n图1为真实针织上衣。将同一件上衣平铺在浅灰棉布上，用正上方镜头拍摄，袖子自然伸展。右上放一个无品牌小收纳袋，不能遮挡领口和衣摆；四边留等宽安全区。保持原针织密度、纹样、领型与颜色，不能用配件让衣服显得比实物更大。无文字。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Catalog: garment flat lay with scale. Suggested aspect ratio: 4:5; set this in your client.\nImage 1 is the actual knit top. Lay it flat on pale-gray cotton, viewed directly overhead with sleeves naturally extended. Place one small unbranded pouch at upper right, clear of collar and hem; keep equal safe margins. Preserve knit density, pattern, neckline and color. Do not manipulate accessory scale to exaggerate garment size. No text.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "俯视透视、袖长、图案位置及针织密度应与参考一致。",
+      "en": "Check overhead perspective, sleeve length, pattern placement and knit density against the reference."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X002",
+        "section": "Step 5: flat lays"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB053",
+    "slug": "catalog-seam-macro",
+    "category": "product",
+    "title": {
+      "zh": "服装目录：可核对的缝线细节",
+      "en": "Catalog: verifiable seam detail"
+    },
+    "aspect_ratio": "1:1",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：服装目录：可核对的缝线细节。建议画幅：1:1，请在客户端设置。\n图1为获授权服装照片，图2为该服装真实袖口微距。以图2为事实依据，生成袖口、纽扣和双道明线的近景，柔和掠射光突出纤维，不改变线迹间距或扣眼形状。背景仅保留同一面料虚化区域。不得把参考图看不清的护理文字补写出来，不新增标识。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Catalog: verifiable seam detail. Suggested aspect ratio: 1:1; set this in your client.\nImage 1 is the authorized garment photo and image 2 is its actual cuff close-up. Use image 2 as factual reference for a close view of cuff, button and double topstitching. Soft grazing light reveals fibers without changing stitch spacing or buttonhole shape. Background is defocused matching fabric only. Do not invent illegible care-label copy or add marks.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "扣孔、线迹和布料纹理必须有参考依据；不能把补绘细节当商品实拍。",
+      "en": "Check buttonhole, stitching and fabric against the reference; do not present invented detail as a real product photo."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X002",
+        "section": "Step 5–6: detail and comparison"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB054",
+    "slug": "embroidery-motif-swap",
+    "category": "editing",
+    "title": {
+      "zh": "只换刺绣图案，保留服装结构",
+      "en": "Embroidery motif replacement"
+    },
+    "aspect_ratio": "4:5",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：只换刺绣图案，保留服装结构。建议画幅：4:5，请在客户端设置。\n图1为有权编辑的成年人物刺绣夹克照。仅把胸前和袖口的装饰刺绣换成铜金色银杏叶，叶脉使用细密丝线，沿原装饰区分布，不扩展到衣服其他区域。保留面料底色、剪裁、纽扣、人物、手势、背景、光线与相机位置。不能把刺绣变成印花或增加金属徽章。保留原文字，不新增文字。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Embroidery motif replacement. Suggested aspect ratio: 4:5; set this in your client.\nImage 1 is an authorized adult portrait wearing an embroidered jacket. Replace only ornamental embroidery on chest and cuffs with copper-gold ginkgo leaves, fine silk-thread veins confined to existing ornament areas. Preserve base cloth, cut, fasteners, person, gesture, background, lighting and camera. Do not turn stitches into a printed graphic or add metal badges. Preserve existing copy; add none.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "刺绣应有线材起伏，并在褶皱处自然变形；脸与手不得变化。",
+      "en": "Threads need relief and should follow folds; face and hands must remain unchanged."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X001",
+        "section": "1. New embroidery, every detail kept"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB055",
+    "slug": "exhibition-poster-revision",
+    "category": "editing",
+    "title": {
+      "zh": "展览海报：文案与主物件联动修改",
+      "en": "Exhibition poster copy and object revision"
+    },
+    "aspect_ratio": "4:5",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：展览海报：文案与主物件联动修改。建议画幅：4:5，请在客户端设置。\n图1为自有展览海报。把主标题改为“GLASS STUDIES”，副标题改为“Light in everyday objects”，日期改为“06.12 — 06.28”；只将中央陶碗换成同尺寸、同位置的透明玻璃碗，匹配原光线。网格、字体风格、页边距、装饰色块、场馆名和纸张纹理不变。除这三处文字外不改其他文字。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Exhibition poster copy and object revision. Suggested aspect ratio: 4:5; set this in your client.\nImage 1 is an owned exhibition poster. Set headline to “GLASS STUDIES”, subtitle to “Light in everyday objects”, dates to “06.12 — 06.28”. Replace only the central ceramic bowl with a clear glass bowl of the same size and position under matching light. Preserve grid, type style, margins, color blocks, venue name and paper texture. Change no other copy.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "先校对三处文字，再核对玻璃碗的占位与未修改信息。",
+      "en": "Proof the three text fields, then verify bowl placement and all unchanged information."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X001",
+        "section": "2. Change the words, keep the design"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB056",
+    "slug": "painted-stilllife-insert",
+    "category": "editing",
+    "title": {
+      "zh": "绘画静物：只改玻璃杯内物体",
+      "en": "Painted still life: contents-only edit"
+    },
+    "aspect_ratio": "3:2",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：绘画静物：只改玻璃杯内物体。建议画幅：3:2，请在客户端设置。\n图1为获授权的静物画。仅把透明玻璃杯内的饮料替换为清水和一枝短茎白色雏菊，花茎在水面处有合理折射；花朵不能伸到画面外。杯子的轮廓、脚座、桌上水果、布料、笔触、明暗与构图全部保留。新花的笔触要与原画一致，不要生成摄影质感贴纸。无新增文字。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Painted still life: contents-only edit. Suggested aspect ratio: 3:2; set this in your client.\nImage 1 is an authorized still-life painting. Replace only the drink inside the clear glass with water and one short-stemmed white daisy, with plausible stem refraction at the waterline and the bloom inside frame. Preserve glass outline and foot, fruit, fabric, brushwork, value structure and composition. Paint the new flower in matching strokes rather than inserting a photographic sticker. No new text.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "核对杯缘完整、茎部折射与原画笔触；其他静物位置不变。",
+      "en": "Check intact glass rim, stem refraction and matching brushwork; all other objects stay fixed."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X001",
+        "section": "3. Same painting, new object"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB057",
+    "slug": "identity-station-relocation",
+    "category": "editing",
+    "title": {
+      "zh": "人物换景：同姿态进入夜间车站",
+      "en": "Identity-preserving station relocation"
+    },
+    "aspect_ratio": "2:3",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：人物换景：同姿态进入夜间车站。建议画幅：2:3，请在客户端设置。\n图1提供经授权成年人物身份、姿态与穿着。把同一人物放到夜间有顶铁路站台中央，背景只有少量虚化成年乘客，暖白顶灯与冷蓝环境光混合。人物脸型、发型、手势、衣物配件和镜头裁切不变，只调整与新环境相符的投影及照明。站台标牌留空，不添加可读站名、广告或标识。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Identity-preserving station relocation. Suggested aspect ratio: 2:3; set this in your client.\nImage 1 defines the authorized adult identity, pose and outfit. Place that same person centrally on a covered railway platform at night, with a few defocused adult commuters, warm white overhead lamps and cool blue ambient light. Preserve face, hair, gesture, clothing, accessories and crop; adapt only illumination and grounded shadows. Keep platform signage blank with no readable station names, ads or marks.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "先对比脸和配件，再检查脚部落地、光源和空白标牌。",
+      "en": "Compare face and accessories first, then grounded feet, light direction and blank signs."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X001",
+        "section": "4. Same character, anywhere"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB058",
+    "slug": "panorama-numbered-edit",
+    "category": "editing",
+    "title": {
+      "zh": "长幅画廊：按编号只改一幅作品",
+      "en": "Panoramic gallery: one indexed artwork edit"
+    },
+    "aspect_ratio": "8:1",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：长幅画廊：按编号只改一幅作品。建议画幅：8:1，请在客户端设置。\n图1为自有超宽画廊概念图，左到右有七幅画。只把第五幅替换成原创蓝白海浪抽象画，画框宽高、位置和反光不变，其余六幅完全保留。将墙面改为淡暖灰，但不修改地板、天花板、家具和观众。保持全宽空间连续，不新增人、动物或画框，不生成文字。先在客户端选8:1，若不可用则使用支持的长幅比例并重新构图。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Panoramic gallery: one indexed artwork edit. Suggested aspect ratio: 8:1; set this in your client.\nImage 1 is an owned ultrawide gallery concept with seven paintings from left to right. Replace only painting five with an original blue-and-white abstract wave, retaining frame dimensions, position and reflection; preserve the other six. Change wall paint to warm pale gray without modifying floor, ceiling, furniture or visitors. Keep continuous space, add no people, animals, frames or text. Select 8:1 in the client; if unavailable, recompose for a supported wide format.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "先从左计数定位第五幅；检查其余六幅与原图逐一对应。",
+      "en": "Count from the left to locate painting five; compare all six untouched paintings to source."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X001",
+        "section": "5. Wider frames, one prompt"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB059",
+    "slug": "kitchen-ugc-product",
+    "category": "portrait",
+    "title": {
+      "zh": "厨房产品UGC自然人像",
+      "en": "Kitchen product UGC portrait"
+    },
+    "aspect_ratio": "9:16",
+    "mode": "generate",
+    "reference_required": false,
+    "prompt": {
+      "zh": "用途：厨房产品UGC自然人像。建议画幅：9:16，请在客户端设置。\n生成一位虚构成年烘焙创作者的日常手机照片，站在朴素明亮的家用厨房，穿棕红棉质上衣，手持无品牌乳白按压瓶，瓶身正面朝向镜头且不遮挡脸。保留自然皮肤纹理、细微发丝和真实窗光，轻微手持构图但不做鱼眼畸变。不是实际用户证言，不添加效果对比、文字、标志或水印。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Kitchen product UGC portrait. Suggested aspect ratio: 9:16; set this in your client.\nCreate a casual phone photograph of a fictional adult baking creator in a plain bright home kitchen, wearing a rust cotton top and holding an unbranded ivory pump bottle facing camera, clear of the face. Natural skin texture, flyaway hair and window light; mildly handheld framing without fisheye distortion. This is a fictional UGC concept, not an actual customer testimonial. No before/after claims, lettering, logos or watermark.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "手指、瓶嘴与镜面方向可信；不得把虚构人物作为真实客户背书。",
+      "en": "Check fingers, pump construction and camera geometry; never present the fictional subject as a real customer endorsement."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X003",
+        "section": "Kitchen selfie, same words"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB060",
+    "slug": "gym-mirror-geometry",
+    "category": "portrait",
+    "title": {
+      "zh": "健身镜自拍：反射几何检查",
+      "en": "Gym mirror selfie geometry"
+    },
+    "aspect_ratio": "9:16",
+    "mode": "generate",
+    "reference_required": false,
+    "prompt": {
+      "zh": "用途：健身镜自拍：反射几何检查。建议画幅：9:16，请在客户端设置。\n一位虚构成年运动爱好者在安静健身房镜前拍照，宽松灰色运动衫、深蓝长裤，手机仅部分遮挡面部。画面只出现一面镜子及同一人物的一次镜中反射；背景器械简单且无人。柔和顶部漫射光，普通手机色彩，无品牌、文字或夸张身体修饰。不要生成第二个现实人物或镜中额外手机。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Gym mirror selfie geometry. Suggested aspect ratio: 9:16; set this in your client.\nA fictional adult fitness enthusiast takes a mirror selfie in a quiet gym, loose gray sweatshirt and navy trousers, phone covering only part of the face. Show one mirror and one reflection of the same person, simple equipment and no other people. Soft diffuse overhead light, everyday phone color, no brands, lettering or exaggerated body retouching. Do not invent a second real person or extra phone in reflection.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "逐项核对手机、持机手与镜中左右关系，避免多余手指和不可能反射。",
+      "en": "Check phone, holding hand and mirror laterality; reject extra fingers or impossible reflections."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X003",
+        "section": "How I tested: gym mirror selfie"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB061",
+    "slug": "street-photo-no-signs",
+    "category": "portrait",
+    "title": {
+      "zh": "街拍：自然质感与无字背景",
+      "en": "Natural street portrait without signage"
+    },
+    "aspect_ratio": "4:5",
+    "mode": "generate",
+    "reference_required": false,
+    "prompt": {
+      "zh": "用途：街拍：自然质感与无字背景。建议画幅：4:5，请在客户端设置。\n虚构成年旅行者穿雾蓝外套沿住宅街道步行，手持素色保温杯，阴天自然光，肤色克制，背景为砖墙、窗户与树影。画面中不安排商店、广告牌、车牌或带字服饰，从构图上减少意外文字。自然步态，保留轻微布料褶皱，不添加任何文字、商标或水印。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Natural street portrait without signage. Suggested aspect ratio: 4:5; set this in your client.\nA fictional adult traveler in a mist-blue coat walks along a residential street holding a plain insulated cup. Overcast natural light, restrained skin color, brick walls, windows and tree shadows behind. Exclude shops, billboards, plates and printed clothing from the composition to reduce accidental lettering. Natural gait and modest fabric folds. No text, logos or watermark.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "放大背景与杯子检查是否出现伪文字，核对双脚落地与手部。",
+      "en": "Zoom into background and cup for accidental pseudo-text; check grounded feet and hands."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X003",
+        "section": "Where each one slipped: street prompt"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB062",
+    "slug": "expression-with-identity",
+    "category": "editing",
+    "title": {
+      "zh": "身份保持与轻微表情变化",
+      "en": "Subtle expression edit with identity check"
+    },
+    "aspect_ratio": "4:5",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：身份保持与轻微表情变化。建议画幅：4:5，请在客户端设置。\n图1为经授权成年人物的基准头像。只将中性表情改为轻微闭嘴微笑，保持眼距、鼻形、下颌轮廓、发际线、肤质、年龄感、光线、服装和背景。不要把脸变圆、磨皮或改变头部角度；不更换场景和衣物。先生成这一处改动，不在同一轮要求大笑。无新增文字。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Subtle expression edit with identity check. Suggested aspect ratio: 4:5; set this in your client.\nImage 1 is an authorized adult baseline portrait. Change only the neutral expression to a slight closed-mouth smile. Preserve eye spacing, nose, jaw contour, hairline, skin texture, apparent age, lighting, clothing and background. Do not round or smooth the face, rotate the head or change setting. Isolate this edit rather than requesting a broad laugh simultaneously. No added text.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "用眼距、鼻形和下颌作身份检查，不能只凭发型判断一致性。",
+      "en": "Use eye spacing, nose and jaw as identity checks rather than hairstyle alone."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X003",
+        "section": "The face test"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB063",
+    "slug": "snow-street-ultrawide",
+    "category": "publishing",
+    "title": {
+      "zh": "雪街超宽横幅与接缝检查",
+      "en": "Snowy street ultrawide continuity"
+    },
+    "aspect_ratio": "8:1",
+    "mode": "generate",
+    "reference_required": false,
+    "prompt": {
+      "zh": "用途：雪街超宽横幅与接缝检查。建议画幅：8:1，请在客户端设置。\n原创超宽雪后街景，左侧低矮砖屋、中间开放人行广场、右侧裸枝树和咖啡馆窗户，蓝灰清晨光，地面雪痕在全宽连续。中央上方留标题区，但本图不画文字；所有店牌保持空白。建筑不重复粘贴，道路与地平线保持统一透视。客户端选择8:1；若不支持，不拉伸成该比例。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Snowy street ultrawide continuity. Suggested aspect ratio: 8:1; set this in your client.\nAn original ultrawide snowy street: low brick houses left, open pedestrian square center, bare trees and café windows right. Blue-gray dawn, snow tracks continuous across the width. Leave open upper-center space for later type but render no text and keep shop signs blank. Avoid repeated building clones; maintain one road perspective and horizon. Select 8:1 in your client; do not stretch a supported frame into that ratio.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "检查左右地平线、重复建筑、雪痕接缝和伪店牌文字。",
+      "en": "Check horizon at both ends, cloned buildings, snow-track seams and unintended sign text."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X003",
+        "section": "Use Nano Banana 2.1 when: wide snowy street"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB064",
+    "slug": "sign-two-step-edit",
+    "category": "advertising",
+    "title": {
+      "zh": "招牌文字的两轮连续编辑",
+      "en": "Two-step sign lettering preservation"
+    },
+    "aspect_ratio": "16:9",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：招牌文字的两轮连续编辑。建议画幅：16:9，请在客户端设置。\n图1为自有咖啡馆白天外观，窗内招牌准确写着“OPEN STUDIO”和“MAKE SOMETHING”。第一轮仅改为傍晚小雨，保持招牌字形、建筑、构图与相机位置。确认两行文字无误后，第二轮以合格结果为参考，只将招牌照明改为暖白背光，不改文案或排版。每轮分别输出并保存，禁止合并成一张前后拼图。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Two-step sign lettering preservation. Suggested aspect ratio: 16:9; set this in your client.\nImage 1 is an owned daytime café exterior with a sign reading exactly “OPEN STUDIO” and “MAKE SOMETHING”. Round one: change only to light rain at dusk, preserving sign letterforms, architecture, framing and camera. After checking both lines, use the accepted output for round two: change only sign illumination to warm-white backlighting, without changing copy or layout. Save one output per round, not a before/after collage.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "两轮均逐字对比招牌，再检查窗框和雨夜光线；不是一次成功就证明多轮稳定。",
+      "en": "Proof the sign after each round and inspect window frames and rain lighting; one success does not prove stable multi-turn performance."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X003",
+        "section": "What Google says changed: cafe sign edits"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB065",
+    "slug": "brand-guide-anchor",
+    "category": "portrait",
+    "title": {
+      "zh": "品牌引导角色基准照",
+      "en": "Brand guide identity anchor"
+    },
+    "aspect_ratio": "4:5",
+    "mode": "generate",
+    "reference_required": false,
+    "prompt": {
+      "zh": "用途：品牌引导角色基准照。建议画幅：4:5，请在客户端设置。\n建立虚构成年科普引导角色“林舟”的基准形象：短卷深棕发、圆框深灰眼镜、右侧衣领一枚小铜色圆扣、苔绿短夹克。站在素色暖灰背景前，平视半身，双手自然可见，柔光和中性表情。角色必须可用于后续参考，不生成姓名文字、品牌标志或复杂道具。一次只输出一张基准照，不做多视角拼图。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Brand guide identity anchor. Suggested aspect ratio: 4:5; set this in your client.\nEstablish a fictional adult science guide named Lin Zhou: short curly dark-brown hair, round dark-gray glasses, a small copper button on the person’s right collar and a moss-green jacket. Eye-level waist-up portrait on plain warm gray, hands naturally visible, soft light and neutral expression. Create one useful identity anchor for later references, not a multi-view collage. Do not render the name, brand marks or elaborate props.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "记录眼镜、发型、领扣左右位置和脸部比例，后续每张都需对照基准。",
+      "en": "Record glasses, hair, collar-button laterality and facial proportions for later comparison."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X004",
+        "section": "Prompt One: guide identity"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB066",
+    "slug": "guide-workflow-control-room",
+    "category": "design",
+    "title": {
+      "zh": "品牌角色进入工作流控制室",
+      "en": "Brand guide in a workflow control room"
+    },
+    "aspect_ratio": "16:9",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：品牌角色进入工作流控制室。建议画幅：16:9，请在客户端设置。\n图1为获批准的虚构成年引导角色基准。将同一角色放在明亮数据工作室左侧，右侧屏幕只展示三个无字流程卡片和两条顺向连接线。保持脸、卷发、眼镜、夹克与领扣身份细节，人物不指向屏幕外。白灰与苔绿配色，为后期页面标题预留右上空白；不生成代码、仪表数值或文字。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Brand guide in a workflow control room. Suggested aspect ratio: 16:9; set this in your client.\nImage 1 is the approved fictional adult guide anchor. Place the same guide on the left of a bright data studio. Screens at right show exactly three unlabeled workflow cards and two forward connectors. Preserve face, curls, glasses, jacket and collar button; avoid gestures pointing out of frame. White-gray and moss palette, open upper-right space for later headline. No code, metrics or lettering.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "角色身份、三个卡片和两条连线分别检查；界面只是视觉概念。",
+      "en": "Check identity, three cards and two connectors separately; the interface is a visual concept."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X004",
+        "section": "Prompt Two: control-room setting"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB067",
+    "slug": "guide-stage-thumbnail",
+    "category": "social",
+    "title": {
+      "zh": "同角色舞台教学缩略图",
+      "en": "Same-guide teaching-stage thumbnail"
+    },
+    "aspect_ratio": "16:9",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：同角色舞台教学缩略图。建议画幅：16:9，请在客户端设置。\n图1为同一虚构成年引导角色基准。让角色站在小型社区讲座舞台右侧，后方为无文字浅蓝屏幕，前景只有三位虚化成年听众的后脑轮廓。保留面部比例、发型、眼镜、苔绿夹克和右衣领铜扣。左侧保留40%整洁标题区但不画字；照明自然，不添加品牌、演讲名或虚构活动标识。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Same-guide teaching-stage thumbnail. Suggested aspect ratio: 16:9; set this in your client.\nImage 1 is the same fictional adult guide anchor. Place the guide at right on a small community lecture stage, a blank pale-blue screen behind and only three defocused adult audience silhouettes in foreground. Preserve facial proportions, hair, glasses, moss jacket and right-collar copper button. Leave 40% clear space on the left for later type but render none. Natural stage light, no brands, talk titles or fabricated event marks.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "与基准核对脸和领扣，舞台灯不能把衣服变成另一种颜色。",
+      "en": "Compare face and collar button to anchor; stage lighting must not change garment identity."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X004",
+        "section": "Prompt Three: teaching on stage"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB068",
+    "slug": "guide-background-only",
+    "category": "editing",
+    "title": {
+      "zh": "引导角色换办公背景，锁定姿态",
+      "en": "Guide office-background-only edit"
+    },
+    "aspect_ratio": "4:5",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：引导角色换办公背景，锁定姿态。建议画幅：4:5，请在客户端设置。\n图1为已批准的虚构成年引导角色照片。本轮只把背景换成带一张空桌与一盆绿植的安静办公室。人物的像素占位、姿态、手势、脸、眼镜、发型、夹克和领扣不变；仅允许边缘融合与必要的环境反光调整。保持相机裁切，不新增电脑、人、可读文件或文字。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Guide office-background-only edit. Suggested aspect ratio: 4:5; set this in your client.\nImage 1 is an approved fictional adult guide photograph. Replace only the background with a quiet office containing one empty desk and one plant. Preserve the person’s placement, pose, gesture, face, glasses, hair, jacket and collar button; allow only edge blending and necessary environmental bounce light. Keep crop fixed, add no computer, people, readable paperwork or lettering.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "将原图与结果叠看，检查轮廓和手势是否漂移；不得顺便重生人物。",
+      "en": "Compare overlays for silhouette and gesture drift; do not regenerate the person as part of the background edit."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X004",
+        "section": "Prompt Four follow-up: office background"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB069",
+    "slug": "laptop-series-design-lock",
+    "category": "product",
+    "title": {
+      "zh": "同一电脑的跨场景产品系列",
+      "en": "Laptop series with design lock"
+    },
+    "aspect_ratio": "3:2",
+    "mode": "edit",
+    "reference_required": true,
+    "prompt": {
+      "zh": "用途：同一电脑的跨场景产品系列。建议画幅：3:2，请在客户端设置。\n图1为自有笔记本电脑产品照片，明确其键盘、接口、屏幕边框和铰链。基于同一参考分别生成三张独立图：白色工作台、木质书桌、深灰摄影棚。每次保持相同开合角度、镜头、占位及外观，只换背景与对应反光。屏幕为无字柔和渐变，不虚构新接口、商标或系统界面。一次运行只做一个场景。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Laptop series with design lock. Suggested aspect ratio: 3:2; set this in your client.\nImage 1 is an owned laptop product photo defining keyboard, ports, bezel and hinge. Use that same reference for three separate outputs: white workbench, timber desk and dark-gray studio. Preserve opening angle, camera, placement and design each time; change only setting and corresponding reflections. Screen shows a soft unlabeled gradient. Invent no ports, marks or operating-system UI. Run one setting at a time.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "三张逐项核对接口、铰链与键盘，不能只比较外壳颜色。",
+      "en": "Compare ports, hinge and keyboard across all three, not just shell color."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X004",
+        "section": "Prompt Five: laptop series"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB070",
+    "slug": "macro-eye-natural-texture",
+    "category": "portrait",
+    "title": {
+      "zh": "眼部微距：皮肤纹理与自然高光",
+      "en": "Macro eye with natural skin texture"
+    },
+    "aspect_ratio": "1:1",
+    "mode": "generate",
+    "reference_required": false,
+    "prompt": {
+      "zh": "用途：眼部微距：皮肤纹理与自然高光。建议画幅：1:1，请在客户端设置。\n虚构成年人物单只棕色眼睛的极近景，包含眼角、部分眉毛和眼下皮肤。侧方窄窗柔光形成一个连续高光，保留毛孔、细纹、细短睫毛及自然肤色变化，虹膜纹理不能像机械齿轮。没有夸张锐化、塑料磨皮或医疗图解感。无文字、标志与水印。此为新写的细节测试方案，不是原帖提示词。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Macro eye with natural skin texture. Suggested aspect ratio: 1:1; set this in your client.\nExtreme close-up of one brown eye of a fictional adult, including eye corner, part of brow and under-eye skin. Soft narrow-window side light creates one coherent catchlight. Preserve pores, fine lines, short lashes and natural skin variation; iris fibers must not resemble mechanical gears. No aggressive sharpening, plastic smoothing or medical-diagram treatment. No text, marks or watermark. This is a newly written detail-test brief, not the original post prompt.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "检查瞳孔轮廓、睫毛根部与高光，放大纹理不能代替分辨率实测。",
+      "en": "Check pupil contour, lash roots and catchlight; visible texture alone does not verify resolution."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X005",
+        "section": "Visible eye/skin close-up; original prompt unavailable"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB071",
+    "slug": "tiny-explorers-scale",
+    "category": "spaces",
+    "title": {
+      "zh": "微小探险者与巨物空间尺度",
+      "en": "Tiny explorers in an oversized world"
+    },
+    "aspect_ratio": "16:9",
+    "mode": "generate",
+    "reference_required": false,
+    "prompt": {
+      "zh": "用途：微小探险者与巨物空间尺度。建议画幅：16:9，请在客户端设置。\n原创微缩奇境：两位穿蓝色雨衣的虚构成年探险者走在一片巨大落叶的叶脉之间，水滴像玻璃穹顶，背景为柔焦森林地面。低机位凸显叶面尺度，两个人必须能辨认但不能变成玩偶。光线从左侧穿过叶片，保留可读路径和一致接触阴影。无文字和既有IP元素。本场景为依据主题独立设计，非还原原图。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Tiny explorers in an oversized world. Suggested aspect ratio: 16:9; set this in your client.\nOriginal miniature-world concept: two fictional adult explorers in blue raincoats walk among the veins of one enormous fallen leaf; droplets resemble glass domes and forest floor recedes softly behind. Low camera emphasizes scale. Keep people recognizable rather than toy-like, light filtering from left, a readable route and consistent contact shadows. No text or existing IP. Independently designed from the theme, not a reconstruction of the source image.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "人物、叶脉和水滴的相对尺度统一；人数恰好为二。",
+      "en": "Keep relative scale consistent across people, veins and droplets; exactly two explorers."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X006",
+        "section": "Quoted post: tiny people in a massive world"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
+  },
+  {
+    "id": "NB072",
+    "slug": "forest-creature-cinema-frame",
+    "category": "story",
+    "title": {
+      "zh": "森林生物电影感特写",
+      "en": "Forest creature cinematic close-up"
+    },
+    "aspect_ratio": "16:9",
+    "mode": "generate",
+    "reference_required": false,
+    "prompt": {
+      "zh": "用途：森林生物电影感特写。建议画幅：16:9，请在客户端设置。\n原创幻想森林生物的电影特写：灰绿粗糙皮肤、圆形深棕眼睛、脸侧有细小蕨叶，不使用任何现有角色特征。镜头贴近一只眼，背景只有虚化树干与湿润苔藓，清晨窄光照亮眼缘，暗部仍有层次。构图偏左，右侧留呼吸空间，克制电影颗粒，不生成黑边或文字。用于镜头概念探索，不是原帖精确复刻。\n输出单张完成图；多轮或系列任务按步骤分别运行，不能自行合并。",
+      "en": "Use case: Forest creature cinematic close-up. Suggested aspect ratio: 16:9; set this in your client.\nCinematic close-up of an original fantasy forest creature: rough gray-green skin, round dark-brown eye and tiny fern fronds along its cheek, with no existing character identifiers. Camera close to one eye; defocused trunks and damp moss behind. A narrow dawn beam lights the eyelid, with detail retained in shadows. Subject left, breathing room right, restrained grain, no letterbox bars or text. A new shot concept, not an exact source reconstruction.\nDeliver one finished image per step. Run multi-round or series tasks separately rather than combining them."
+    },
+    "quality_check": {
+      "zh": "眼部解剖与皮肤细节连贯，暗部保留层次；不将单帧当视频输出。",
+      "en": "Check coherent eye anatomy and skin texture, readable shadows; a still frame is not generated video."
+    },
+    "target_model": "gemini-nano-banana-2.1",
+    "target_model_status": "not_tested",
+    "preview": null,
+    "origin": "x_inspired_adaptation",
+    "sources": [
+      {
+        "source_id": "X007",
+        "section": "Visible creature-eye and forest frames; original prompt unavailable"
+      }
+    ],
+    "adaptation": {
+      "zh": "aivideoweb.com团队依据公开案例主题重新设计主体、构图和检查点；非原帖提示词逐字转载，未下载原图，尚未独立复现。",
+      "en": "The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced."
+    }
   }
 ]

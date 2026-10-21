@@ -6,9 +6,11 @@ Una colección independiente de código abierto creada y mantenida por el **[equ
 
 ![Portada original de la biblioteca de aivideoweb.com](assets/images/cover.webp)
 
+Las 24 recetas añadidas son adaptaciones nuevas basadas en temas de casos públicos de X. El [registro de fuentes](docs/x-case-sources.md) incluye autores, fechas y alcance de la revisión. No son transcripciones de los prompts originales ni resultados reproducidos de forma independiente.
+
 ## Qué incluye
 
-Son 48 escenarios originales en 12 categorías. Cada receta tiene versiones completas en inglés y chino simplificado, con composición, texto exacto, restricciones y criterios de revisión. **Esta página ofrece una introducción y un ejemplo en español; no es una traducción completa de las 48 recetas.**
+Son 72 escenarios originales en 12 categorías. Cada receta tiene versiones completas en inglés y chino simplificado, con composición, texto exacto, restricciones y criterios de revisión. **Esta página ofrece una introducción y un ejemplo en español; no es una traducción completa de las 72 recetas.**
 
 Las imágenes se generaron de nuevo con la herramienta integrada imagegen y sirven como ilustraciones. **No son resultados verificados de Nano Banana 2.1.** Todas las pruebas del modelo de destino figuran como `not_tested`. El [registro de generación](assets/generation-manifest.json) identifica la herramienta y el prompt de cada imagen.
 
@@ -51,3 +53,15 @@ Desde la raíz del repositorio, ejecuta `python3 -m http.server 8000` y abre `ht
 El texto original y el código usan la licencia [MIT](LICENSE). Consulta el [aviso de imágenes](assets/README.md) para su procedencia y condiciones. No se garantiza exclusividad ni la autorización de derechos de terceros para cualquier uso comercial.
 
 Para aportar escenarios, traducciones revisadas o pruebas reales del modelo, lee [CONTRIBUTING.md](CONTRIBUTING.md). Conserva los identificadores y distingue siempre una traducción completa de una guía inicial.
+
+---
+
+## Acerca de AI VideoWeb
+
+[**AI VideoWeb (aivideoweb.com)**](https://aivideoweb.com) es una plataforma de creación de vídeo, imágenes y música con IA para creadores y equipos de marketing. Ofrece generación de vídeo a partir de texto, imágenes o referencias, además de generación y edición de imágenes para productos, anuncios y redes sociales.
+
+El **equipo de aivideoweb.com** crea y mantiene esta biblioteca abierta. Adapta una receta a tu proyecto y prueba las [herramientas de imágenes con IA](https://aivideoweb.com/ai-image-generator/) y los flujos de vídeo de la plataforma.
+
+### Colabora como afiliado
+
+AI VideoWeb admite **colaboraciones con afiliados**. Creadores, reseñadores, educadores y editores pueden recomendar el producto mediante contenido útil. Consulta cómo participar y las condiciones vigentes en el [**Programa de Afiliados de AI VideoWeb**](https://aivideoweb.com/affiliate-program/).

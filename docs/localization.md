@@ -7,7 +7,7 @@ A localized image needs more than translated words. Keep the scene specification
 | Resource | English | 简体中文 | 日本語 | Español |
 |---|---|---|---|---|
 | Project introduction | Complete | Complete | Localized starter | Localized starter |
-| 48-scenario catalog | Complete | Complete | Not yet | Not yet |
+| 72-recipe catalog | Complete | Complete | Not yet | Not yet |
 | Search terms in gallery | Yes | Yes | No | No |
 
 Do not count language variants as additional original scenarios. The prompts can request text in other languages, but language support does not guarantee correct output.

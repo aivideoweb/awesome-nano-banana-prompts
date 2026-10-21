@@ -23,7 +23,7 @@ If you prefer a gallery at the domain root, adapt the build script's path handli
 ## Included search foundations
 
 - An English homepage with a descriptive title and meta description.
-- Forty-eight static detail pages with unique titles, summaries, bilingual prompt bodies and contextual review instructions.
+- Seventy-two static detail pages with unique titles, summaries, bilingual prompt bodies and contextual review instructions.
 - Category navigation, plain links, readable URLs and descriptive image alt text.
 - `CreativeWork` structured data describing authored recipes; no invented reviews, ratings or verified-model claims.
 - Local WebP assets and lazy-loaded preview cards.
@@ -39,3 +39,5 @@ If you later publish fully localized HTML, give each language its own URL, trans
 There is no scheduled sync or automatic third-party scraping. Updates are reviewed changes to the data and its generated pages. A useful release adds a distinct scenario, a reviewed translation, a documented failure or a transparent real-model test. Keep counts and the changelog consistent.
 
 For measurement after deployment, use actual indexing, query and click data. Search ranking cannot be promised from metadata or keyword density alone.
+
+Public X sources have their own crawlable `site/sources.html` page and per-recipe citations. Keep this page linked when deploying; do not strip source attribution during localization.

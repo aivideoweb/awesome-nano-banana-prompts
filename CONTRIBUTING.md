@@ -28,3 +28,11 @@ python3 scripts/validate.py
 Commit the updated data, generated catalogs/pages, local images and manifest together. Inspect the gallery at desktop and mobile widths. Follow `docs/editorial-checklist.md`; use `docs/provenance.md` for source records.
 
 The repository's original text and code use MIT. Generated images are described separately in `assets/README.md`.
+
+## Add a public X case
+
+Use a public article/post permalink and create a record in `data/sources.json`. Record author, date, access method, the explicit model claim, whether the original prompt was visible, evidence level and limitations. A renamed profile or search snippet does not establish the model used in an old post. Prefer the actual body and published date.
+
+For a rewritten recipe, set `origin` to `x_inspired_adaptation`, link `sources[].source_id` and the inspected section, and explain the adaptation in both languages. Keep `target_model_status: not_tested` unless the team actually reproduces the rewritten prompt on the target model. A publisher's result does not change that field.
+
+Do not download third-party images or relicense their text by adding them to this MIT repository. Link source media at its original location. Source-filter counts and category counts are built from the data; update README summaries when collection size changes.

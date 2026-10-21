@@ -6,11 +6,17 @@
 
 ![Original aivideoweb.com prompt library cover](assets/images/cover.webp)
 
-**48 original scenarios · 12 categories · 2 complete prompt languages · 4 introduction languages**
+**72 practical recipes · 12 categories · 2 complete prompt languages · 4 introduction languages**
 
 Turn a creative brief into an image you can review. Every recipe includes a composition, exact text instructions, constraints, a suggested frame and a specific quality check. Choose a scenario, replace the subject, generate a draft and correct one issue at a time.
 
-> **Preview disclosure:** The new images in this repository are illustrative generations made with the built-in imagegen tool. They are **not Nano Banana 2.1 outputs or benchmarks**. All 48 target-model recipes are currently marked `not_tested`. See the [generation manifest](assets/generation-manifest.json) for each preview's prompt and provenance. Editing recipes require your own authorized reference images.
+> **Preview disclosure:** The new images in this repository are illustrative generations made with the built-in imagegen tool. They are **not Nano Banana 2.1 outputs or benchmarks**. All 72 target-model recipes are currently marked `not_tested`. See the [generation manifest](assets/generation-manifest.json) for each preview's prompt and provenance. Editing recipes require your own authorized reference images.
+
+## New: public X case workflows
+
+**24 new bilingual adaptations** expand the initial 48 recipes to 72. Browse [source records](docs/x-case-sources.md) or filter **X case adaptations** in the gallery. Topics include garment catalogs, embroidery swaps, selective poster changes, subject continuity, multi-round lettering and texture tests.
+
+The 8 source records include tutorials, publisher-reported demonstrations, a quoted post and a discovery thread. They are not 8 independent benchmarks or 24 verified outputs. New prompts are rewritten production briefs; their actual Nano Banana 2.1 results remain untested. Source authors, dates, inspected sections and limitations are attached to each recipe. Original media is linked rather than republished.
 
 ## Start with an actual task
 
@@ -25,24 +31,24 @@ Turn a creative brief into an image you can review. Every recipe includes a comp
 
 **[Browse all English prompts](prompts/en.md)** · **[查看全部中文提示词](prompts/zh.md)** · **[Open the static gallery source](site/index.html)** · **[Download structured JSON](data/prompts.json)**
 
-The HTML gallery works locally and includes English/Chinese search, category filters, copy buttons and 48 linked detail pages. On GitHub, use the Markdown catalogs for direct reading; downloaded HTML pages need a browser or local server.
+The HTML gallery works locally and includes English/Chinese search, category filters, copy buttons and 72 linked detail pages. On GitHub, use the Markdown catalogs for direct reading; downloaded HTML pages need a browser or local server.
 
 ## Browse by use case
 
 | Category | Recipes | Examples |
 |---|---:|---|
-| [Product photography](prompts/en.md#product-photography) | 4 | Travel mug, skincare, backpack details, jewelry |
-| [Ads and branding](prompts/en.md#ads-and-branding) | 4 | Coffee launch, running club, tea packaging, bookshop |
-| [Social and thumbnails](prompts/en.md#social-and-thumbnails) | 4 | Carousel, lighting thumbnail, recipe, podcast |
+| [Product photography](prompts/en.md#product-photography) | 10 | Travel mug, skincare, backpack details, jewelry |
+| [Ads and branding](prompts/en.md#ads-and-branding) | 5 | Coffee launch, running club, tea packaging, bookshop |
+| [Social and thumbnails](prompts/en.md#social-and-thumbnails) | 5 | Carousel, lighting thumbnail, recipe, podcast |
 | [Infographics and learning](prompts/en.md#infographics-and-learning) | 4 | Plant stages, water cycle, pour-over, decision tree |
-| [Portraits and people](prompts/en.md#portraits-and-people) | 4 | Avatar, cyclist, artisan, team |
-| [Stories and storyboards](prompts/en.md#stories-and-storyboards) | 4 | Courier, bakery comic, film frames, character sheet |
-| [Web and app concepts](prompts/en.md#web-and-app-concepts) | 4 | SaaS hero, habit app, café menu, portfolio |
-| [Architecture and interiors](prompts/en.md#architecture-and-interiors) | 4 | Reading corner, courtyard, lobby, isometric studio |
+| [Portraits and people](prompts/en.md#portraits-and-people) | 9 | Avatar, cyclist, artisan, team |
+| [Stories and storyboards](prompts/en.md#stories-and-storyboards) | 5 | Courier, bakery comic, film frames, character sheet |
+| [Web and app concepts](prompts/en.md#web-and-app-concepts) | 5 | SaaS hero, habit app, café menu, portfolio |
+| [Architecture and interiors](prompts/en.md#architecture-and-interiors) | 5 | Reading corner, courtyard, lobby, isometric studio |
 | [Food and lifestyle](prompts/en.md#food-and-lifestyle) | 4 | Noodles, bakery, picnic, autumn still life |
 | [Games and original assets](prompts/en.md#games-and-original-assets) | 4 | Potions, cozy shop, terrain study, creature views |
-| [Editing and localization](prompts/en.md#editing-and-localization) | 4 | Background, Spanish poster, coat color, three-image composite |
-| [Publishing and wide visuals](prompts/en.md#publishing-and-wide-visuals) | 4 | Book cover, banner, zine, event panorama |
+| [Editing and localization](prompts/en.md#editing-and-localization) | 11 | Background, Spanish poster, coat color, three-image composite |
+| [Publishing and wide visuals](prompts/en.md#publishing-and-wide-visuals) | 5 | Book cover, banner, zine, event panorama |
 
 ## A useful prompt in five minutes
 
@@ -100,7 +106,7 @@ The repository's original text and code are provided under the existing [MIT lic
 
 ### Which languages are available?
 
-All 48 prompts are available in English and Simplified Chinese. Japanese and Spanish have localized project introductions and starter examples. They are not complete catalog translations. The localization guide includes exact-copy examples for additional markets.
+All 72 prompts are available in English and Simplified Chinese. Japanese and Spanish have localized project introductions and starter examples. They are not complete catalog translations. The localization guide includes exact-copy examples for additional markets.
 
 ### Can I use the images commercially?
 
@@ -123,3 +129,15 @@ See [content provenance](docs/provenance.md), the [editorial checklist](docs/edi
 ---
 
 Built by the **[aivideoweb.com team](https://aivideoweb.com)**. An independent open-source collection; no affiliation with the model provider is implied.
+
+---
+
+## About AI VideoWeb
+
+[**AI VideoWeb (aivideoweb.com)**](https://aivideoweb.com) is an AI video, image and music creation platform for creators and marketing teams. Explore text-to-video, image-to-video, reference-based video creation, image generation and photo editing to develop product visuals, ads and social content.
+
+This open-source prompt library is maintained by the **aivideoweb.com team**. Start with a recipe here, adapt it to your brief, then explore the platform's [AI image tools](https://aivideoweb.com/ai-image-generator/) and video workflows.
+
+### Affiliate partners welcome
+
+AI VideoWeb supports **affiliate partnerships**. Creators, reviewers, educators and publishers can recommend the product through tutorials, reviews and community content. See the [**AI VideoWeb Affiliate Program — join and view current terms**](https://aivideoweb.com/affiliate-program/).

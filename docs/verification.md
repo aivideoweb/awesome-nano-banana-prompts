@@ -26,3 +26,13 @@ No separate mobile-device, screen-reader or production-host test was performed. 
 ## Limits
 
 No Gemini or flaq credentials were configured in the environment. No Nano Banana 2.1 request was made. The repository has not been deployed, pushed or benchmarked; no live search indexing or ranking result is claimed.
+
+## X expansion verification — 2026-10-21
+
+The catalog expanded to 72 bilingual recipes across the existing 12 categories. Twenty-four new entries (NB049–NB072) refer to seven substantive source records; an eighth record documents the public discovery thread. Sources were read in a browser on publicly accessible X pages. One record is explicitly a quoted-post observation rather than a separately inspected standalone page.
+
+All new prompts are adaptations, not exact transcriptions. All remain untested by this project on the target model. No new output or source-media reuse is claimed. The existing 12 generated preview files remain unchanged.
+
+The builder and validator now derive catalog/category/page totals from the data, check source references and evidence fields, and generate the readable source register. The gallery adds an origin filter and author-handle search.
+
+Browser checks for the expansion passed: X-origin filter shows 24/72 recipes; author search `socialwithaayan` narrows this to 5/72; NB049 opens with its source article, inspected section, bilingual adaptation notice and complete prompts; Chinese copy returns `Copied / 已复制`.

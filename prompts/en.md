@@ -2,7 +2,7 @@
 
 [aivideoweb.com](https://aivideoweb.com) · [Home](../README.md) · [JSON](../data/prompts.json)
 
-48 distinct scenarios, not 96 unique prompts. English and Chinese are language versions of the same entries. Target-model test status is recorded in JSON.
+72 recipes, including 24 adaptations inspired by public X case themes. Translations are not additional entries. Adaptations have not been independently reproduced.
 
 ## Product photography
 
@@ -73,6 +73,138 @@ Maintain clear visual hierarchy, useful negative space and consistent light dire
 ```
 
 **Review:** Check the closed band and consistent internal reflections.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB049 · Catalog: locked front-view setup
+
+`edit` · `2:3` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [Muhammad Ayan · How to Shoot a Full Product Catalog With Nano Banana 2.1 (Full Guide)](https://x.com/socialwithaayan/article/2107789352252350546) · 2026-10-07 · Step 1–2: house shot and front
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Catalog: locked front-view setup. Suggested aspect ratio: 2:3; set this in your client.
+Image 1 is the authorized front photo of the actual jacket. Image 2 is the approved catalog setup, providing only hanger, backdrop and lighting. Present the jacket facing the camera on that dark flat wooden hanger, centered against pale gray. Match camera height and soft light; leave about 15% below the hem. Preserve pockets, fasteners, fabric, color and existing marks. Add no lettering or accessories.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Compare pockets, button count and sleeve length to the real front; then compare hanger angle and margins to the setup reference.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB050 · Catalog: evidence-based garment back
+
+`edit` · `2:3` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [Muhammad Ayan · How to Shoot a Full Product Catalog With Nano Banana 2.1 (Full Guide)](https://x.com/socialwithaayan/article/2107789352252350546) · 2026-10-07 · Step 3: back view and its caveat
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Catalog: evidence-based garment back. Suggested aspect ratio: 2:3; set this in your client.
+Image 1 must show the actual back of the garment; image 2 is the approved front catalog shot and supplies setup only. Rephotograph the back using image 2’s backdrop, hanger, camera and shadow softness. Retain back panels, construction folds, artwork and labels from image 1. If the back reference is absent, do not invent unseen prints or construction: request it instead. No new text.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Back artwork must come from the real back; never copy front pockets onto the rear.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB051 · Catalog: two-reference on-body shot
+
+`edit` · `2:3` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [Muhammad Ayan · How to Shoot a Full Product Catalog With Nano Banana 2.1 (Full Guide)](https://x.com/socialwithaayan/article/2107789352252350546) · 2026-10-07 · Step 4: garment and model references
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Catalog: two-reference on-body shot. Suggested aspect ratio: 2:3; set this in your client.
+Image 1 defines the real garment; image 2 defines the authorized adult model. Dress that person in the garment in a softly lit pale-gray studio, full-body three-quarter view, arms relaxed clear of the fastening. Pair with charcoal trousers and plain canvas shoes. Preserve face, hair and skin tone; do not redesign collar, closures, pockets or garment length. Add no lettering.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Check model identity and garment construction separately; cuffs must not merge into fingers.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB052 · Catalog: garment flat lay with scale
+
+`edit` · `4:5` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [Muhammad Ayan · How to Shoot a Full Product Catalog With Nano Banana 2.1 (Full Guide)](https://x.com/socialwithaayan/article/2107789352252350546) · 2026-10-07 · Step 5: flat lays
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Catalog: garment flat lay with scale. Suggested aspect ratio: 4:5; set this in your client.
+Image 1 is the actual knit top. Lay it flat on pale-gray cotton, viewed directly overhead with sleeves naturally extended. Place one small unbranded pouch at upper right, clear of collar and hem; keep equal safe margins. Preserve knit density, pattern, neckline and color. Do not manipulate accessory scale to exaggerate garment size. No text.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Check overhead perspective, sleeve length, pattern placement and knit density against the reference.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB053 · Catalog: verifiable seam detail
+
+`edit` · `1:1` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [Muhammad Ayan · How to Shoot a Full Product Catalog With Nano Banana 2.1 (Full Guide)](https://x.com/socialwithaayan/article/2107789352252350546) · 2026-10-07 · Step 5–6: detail and comparison
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Catalog: verifiable seam detail. Suggested aspect ratio: 1:1; set this in your client.
+Image 1 is the authorized garment photo and image 2 is its actual cuff close-up. Use image 2 as factual reference for a close view of cuff, button and double topstitching. Soft grazing light reveals fibers without changing stitch spacing or buttonhole shape. Background is defocused matching fabric only. Do not invent illegible care-label copy or add marks.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Check buttonhole, stitching and fabric against the reference; do not present invented detail as a real product photo.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB069 · Laptop series with design lock
+
+`edit` · `3:2` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [Julian Goldie SEO · 5 Prompts to Test Google Flow Character Consistency](https://x.com/JulianGoldieSEO/article/2109707716503740878) · 2026-10-12 · Prompt Five: laptop series
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Laptop series with design lock. Suggested aspect ratio: 3:2; set this in your client.
+Image 1 is an owned laptop product photo defining keyboard, ports, bezel and hinge. Use that same reference for three separate outputs: white workbench, timber desk and dark-gray studio. Preserve opening angle, camera, placement and design each time; change only setting and corresponding reflections. Screen shows a soft unlabeled gradient. Invent no ports, marks or operating-system UI. Run one setting at a time.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Compare ports, hinge and keyboard across all three, not just shell color.
 
 **Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
 
@@ -152,6 +284,28 @@ Maintain clear visual hierarchy, useful negative space and consistent light dire
 
 **Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
 
+### NB064 · Two-step sign lettering preservation
+
+`edit` · `16:9` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [Michael Aubry · Nano Banana 2.1 is 2x faster than GPT Image 2.5. Here's when that matters.](https://x.com/michaelaubry/article/2107900126920609795) · 2026-10-07 · What Google says changed: cafe sign edits
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Two-step sign lettering preservation. Suggested aspect ratio: 16:9; set this in your client.
+Image 1 is an owned daytime café exterior with a sign reading exactly “OPEN STUDIO” and “MAKE SOMETHING”. Round one: change only to light rain at dusk, preserving sign letterforms, architecture, framing and camera. After checking both lines, use the accepted output for round two: change only sign illumination to warm-white backlighting, without changing copy or layout. Save one output per round, not a before/after collage.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Proof the sign after each round and inspect window frames and rain lighting; one success does not prove stable multi-turn performance.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
 ## Social and thumbnails
 
 ### NB009 · Desk reset carousel cover
@@ -221,6 +375,28 @@ Maintain clear visual hierarchy, useful negative space and consistent light dire
 ```
 
 **Review:** Check thumbnail readability and keep lettering unwarped.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB067 · Same-guide teaching-stage thumbnail
+
+`edit` · `16:9` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [Julian Goldie SEO · 5 Prompts to Test Google Flow Character Consistency](https://x.com/JulianGoldieSEO/article/2109707716503740878) · 2026-10-12 · Prompt Three: teaching on stage
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Same-guide teaching-stage thumbnail. Suggested aspect ratio: 16:9; set this in your client.
+Image 1 is the same fictional adult guide anchor. Place the guide at right on a small community lecture stage, a blank pale-blue screen behind and only three defocused adult audience silhouettes in foreground. Preserve facial proportions, hair, glasses, moss jacket and right-collar copper button. Leave 40% clear space on the left for later type but render none. Natural stage light, no brands, talk titles or fabricated event marks.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Compare face and collar button to anchor; stage lighting must not change garment identity.
 
 **Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
 
@@ -374,6 +550,116 @@ Maintain clear visual hierarchy, useful negative space and consistent light dire
 
 **Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
 
+### NB059 · Kitchen product UGC portrait
+
+`generate` · `9:16` · No reference required
+
+**X source (community report; not independently reproduced)**
+
+- [Michael Aubry · Nano Banana 2.1 is 2x faster than GPT Image 2.5. Here's when that matters.](https://x.com/michaelaubry/article/2107900126920609795) · 2026-10-07 · Kitchen selfie, same words
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Kitchen product UGC portrait. Suggested aspect ratio: 9:16; set this in your client.
+Create a casual phone photograph of a fictional adult baking creator in a plain bright home kitchen, wearing a rust cotton top and holding an unbranded ivory pump bottle facing camera, clear of the face. Natural skin texture, flyaway hair and window light; mildly handheld framing without fisheye distortion. This is a fictional UGC concept, not an actual customer testimonial. No before/after claims, lettering, logos or watermark.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Check fingers, pump construction and camera geometry; never present the fictional subject as a real customer endorsement.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB060 · Gym mirror selfie geometry
+
+`generate` · `9:16` · No reference required
+
+**X source (community report; not independently reproduced)**
+
+- [Michael Aubry · Nano Banana 2.1 is 2x faster than GPT Image 2.5. Here's when that matters.](https://x.com/michaelaubry/article/2107900126920609795) · 2026-10-07 · How I tested: gym mirror selfie
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Gym mirror selfie geometry. Suggested aspect ratio: 9:16; set this in your client.
+A fictional adult fitness enthusiast takes a mirror selfie in a quiet gym, loose gray sweatshirt and navy trousers, phone covering only part of the face. Show one mirror and one reflection of the same person, simple equipment and no other people. Soft diffuse overhead light, everyday phone color, no brands, lettering or exaggerated body retouching. Do not invent a second real person or extra phone in reflection.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Check phone, holding hand and mirror laterality; reject extra fingers or impossible reflections.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB061 · Natural street portrait without signage
+
+`generate` · `4:5` · No reference required
+
+**X source (community report; not independently reproduced)**
+
+- [Michael Aubry · Nano Banana 2.1 is 2x faster than GPT Image 2.5. Here's when that matters.](https://x.com/michaelaubry/article/2107900126920609795) · 2026-10-07 · Where each one slipped: street prompt
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Natural street portrait without signage. Suggested aspect ratio: 4:5; set this in your client.
+A fictional adult traveler in a mist-blue coat walks along a residential street holding a plain insulated cup. Overcast natural light, restrained skin color, brick walls, windows and tree shadows behind. Exclude shops, billboards, plates and printed clothing from the composition to reduce accidental lettering. Natural gait and modest fabric folds. No text, logos or watermark.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Zoom into background and cup for accidental pseudo-text; check grounded feet and hands.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB065 · Brand guide identity anchor
+
+`generate` · `4:5` · No reference required
+
+**X source (community report; not independently reproduced)**
+
+- [Julian Goldie SEO · 5 Prompts to Test Google Flow Character Consistency](https://x.com/JulianGoldieSEO/article/2109707716503740878) · 2026-10-12 · Prompt One: guide identity
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Brand guide identity anchor. Suggested aspect ratio: 4:5; set this in your client.
+Establish a fictional adult science guide named Lin Zhou: short curly dark-brown hair, round dark-gray glasses, a small copper button on the person’s right collar and a moss-green jacket. Eye-level waist-up portrait on plain warm gray, hands naturally visible, soft light and neutral expression. Create one useful identity anchor for later references, not a multi-view collage. Do not render the name, brand marks or elaborate props.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Record glasses, hair, collar-button laterality and facial proportions for later comparison.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB070 · Macro eye with natural skin texture
+
+`generate` · `1:1` · No reference required
+
+**X source (community report; not independently reproduced)**
+
+- [Christopher Fryant · Texture and detail tests with Nano Banana 2.1](https://x.com/cfryant/status/2107849002259784148) · 2026-10-07 · Visible eye/skin close-up; original prompt unavailable
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Macro eye with natural skin texture. Suggested aspect ratio: 1:1; set this in your client.
+Extreme close-up of one brown eye of a fictional adult, including eye corner, part of brow and under-eye skin. Soft narrow-window side light creates one coherent catchlight. Preserve pores, fine lines, short lashes and natural skin variation; iris fibers must not resemble mechanical gears. No aggressive sharpening, plastic smoothing or medical-diagram treatment. No text, marks or watermark. This is a newly written detail-test brief, not the original post prompt.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Check pupil contour, lash roots and catchlight; visible texture alone does not verify resolution.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
 ## Stories and storyboards
 
 ### NB021 · Fox courier four-panel story
@@ -443,6 +729,28 @@ Maintain clear visual hierarchy, useful negative space and consistent light dire
 ```
 
 **Review:** Preserve pouch laterality across views; avoid mirroring.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB072 · Forest creature cinematic close-up
+
+`generate` · `16:9` · No reference required
+
+**X source (community report; not independently reproduced)**
+
+- [Moinzek · Testing Nano Banana 2.1 within Google Flow](https://x.com/moinzek/status/2107922569441722682) · 2026-10-08 · Visible creature-eye and forest frames; original prompt unavailable
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Forest creature cinematic close-up. Suggested aspect ratio: 16:9; set this in your client.
+Cinematic close-up of an original fantasy forest creature: rough gray-green skin, round dark-brown eye and tiny fern fronds along its cheek, with no existing character identifiers. Camera close to one eye; defocused trunks and damp moss behind. A narrow dawn beam lights the eyelid, with detail retained in shadows. Subject left, breathing room right, restrained grain, no letterbox bars or text. A new shot concept, not an exact source reconstruction.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Check coherent eye anatomy and skin texture, readable shadows; a still frame is not generated video.
 
 **Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
 
@@ -522,6 +830,28 @@ Maintain clear visual hierarchy, useful negative space and consistent light dire
 
 **Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
 
+### NB066 · Brand guide in a workflow control room
+
+`edit` · `16:9` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [Julian Goldie SEO · 5 Prompts to Test Google Flow Character Consistency](https://x.com/JulianGoldieSEO/article/2109707716503740878) · 2026-10-12 · Prompt Two: control-room setting
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Brand guide in a workflow control room. Suggested aspect ratio: 16:9; set this in your client.
+Image 1 is the approved fictional adult guide anchor. Place the same guide on the left of a bright data studio. Screens at right show exactly three unlabeled workflow cards and two forward connectors. Preserve face, curls, glasses, jacket and collar button; avoid gestures pointing out of frame. White-gray and moss palette, open upper-right space for later headline. No code, metrics or lettering.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Check identity, three cards and two connectors separately; the interface is a visual concept.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
 ## Architecture and interiors
 
 ### NB029 · Compact reading corner
@@ -591,6 +921,28 @@ Maintain clear visual hierarchy, useful negative space and consistent light dire
 ```
 
 **Review:** Keep isometric axes consistent and all furniture inside the room.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB071 · Tiny explorers in an oversized world
+
+`generate` · `16:9` · No reference required
+
+**X source (community report; not independently reproduced)**
+
+- [Christopher Fryant · Tiny people in a massive world — first Nano Banana 2.1 test](https://x.com/cfryant/status/2107552426148745491) · 2026-10-07 · Quoted post: tiny people in a massive world
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Tiny explorers in an oversized world. Suggested aspect ratio: 16:9; set this in your client.
+Original miniature-world concept: two fictional adult explorers in blue raincoats walk among the veins of one enormous fallen leaf; droplets resemble glass domes and forest floor recedes softly behind. Low camera emphasizes scale. Keep people recognizable rather than toy-like, light filtering from left, a readable route and consistent contact shadows. No text or existing IP. Independently designed from the theme, not a reconstruction of the source image.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Keep relative scale consistent across people, veins and droplets; exactly two explorers.
 
 **Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
 
@@ -814,6 +1166,160 @@ Maintain clear visual hierarchy, useful negative space and consistent light dire
 
 **Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
 
+### NB054 · Embroidery motif replacement
+
+`edit` · `4:5` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [each::labs · Everything You Can Do With Nano Banana 2.1](https://x.com/eachlabs/article/2108207517385846870) · 2026-10-08 · 1. New embroidery, every detail kept
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Embroidery motif replacement. Suggested aspect ratio: 4:5; set this in your client.
+Image 1 is an authorized adult portrait wearing an embroidered jacket. Replace only ornamental embroidery on chest and cuffs with copper-gold ginkgo leaves, fine silk-thread veins confined to existing ornament areas. Preserve base cloth, cut, fasteners, person, gesture, background, lighting and camera. Do not turn stitches into a printed graphic or add metal badges. Preserve existing copy; add none.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Threads need relief and should follow folds; face and hands must remain unchanged.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB055 · Exhibition poster copy and object revision
+
+`edit` · `4:5` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [each::labs · Everything You Can Do With Nano Banana 2.1](https://x.com/eachlabs/article/2108207517385846870) · 2026-10-08 · 2. Change the words, keep the design
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Exhibition poster copy and object revision. Suggested aspect ratio: 4:5; set this in your client.
+Image 1 is an owned exhibition poster. Set headline to “GLASS STUDIES”, subtitle to “Light in everyday objects”, dates to “06.12 — 06.28”. Replace only the central ceramic bowl with a clear glass bowl of the same size and position under matching light. Preserve grid, type style, margins, color blocks, venue name and paper texture. Change no other copy.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Proof the three text fields, then verify bowl placement and all unchanged information.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB056 · Painted still life: contents-only edit
+
+`edit` · `3:2` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [each::labs · Everything You Can Do With Nano Banana 2.1](https://x.com/eachlabs/article/2108207517385846870) · 2026-10-08 · 3. Same painting, new object
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Painted still life: contents-only edit. Suggested aspect ratio: 3:2; set this in your client.
+Image 1 is an authorized still-life painting. Replace only the drink inside the clear glass with water and one short-stemmed white daisy, with plausible stem refraction at the waterline and the bloom inside frame. Preserve glass outline and foot, fruit, fabric, brushwork, value structure and composition. Paint the new flower in matching strokes rather than inserting a photographic sticker. No new text.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Check intact glass rim, stem refraction and matching brushwork; all other objects stay fixed.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB057 · Identity-preserving station relocation
+
+`edit` · `2:3` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [each::labs · Everything You Can Do With Nano Banana 2.1](https://x.com/eachlabs/article/2108207517385846870) · 2026-10-08 · 4. Same character, anywhere
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Identity-preserving station relocation. Suggested aspect ratio: 2:3; set this in your client.
+Image 1 defines the authorized adult identity, pose and outfit. Place that same person centrally on a covered railway platform at night, with a few defocused adult commuters, warm white overhead lamps and cool blue ambient light. Preserve face, hair, gesture, clothing, accessories and crop; adapt only illumination and grounded shadows. Keep platform signage blank with no readable station names, ads or marks.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Compare face and accessories first, then grounded feet, light direction and blank signs.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB058 · Panoramic gallery: one indexed artwork edit
+
+`edit` · `8:1` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [each::labs · Everything You Can Do With Nano Banana 2.1](https://x.com/eachlabs/article/2108207517385846870) · 2026-10-08 · 5. Wider frames, one prompt
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Panoramic gallery: one indexed artwork edit. Suggested aspect ratio: 8:1; set this in your client.
+Image 1 is an owned ultrawide gallery concept with seven paintings from left to right. Replace only painting five with an original blue-and-white abstract wave, retaining frame dimensions, position and reflection; preserve the other six. Change wall paint to warm pale gray without modifying floor, ceiling, furniture or visitors. Keep continuous space, add no people, animals, frames or text. Select 8:1 in the client; if unavailable, recompose for a supported wide format.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Count from the left to locate painting five; compare all six untouched paintings to source.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB062 · Subtle expression edit with identity check
+
+`edit` · `4:5` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [Michael Aubry · Nano Banana 2.1 is 2x faster than GPT Image 2.5. Here's when that matters.](https://x.com/michaelaubry/article/2107900126920609795) · 2026-10-07 · The face test
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Subtle expression edit with identity check. Suggested aspect ratio: 4:5; set this in your client.
+Image 1 is an authorized adult baseline portrait. Change only the neutral expression to a slight closed-mouth smile. Preserve eye spacing, nose, jaw contour, hairline, skin texture, apparent age, lighting, clothing and background. Do not round or smooth the face, rotate the head or change setting. Isolate this edit rather than requesting a broad laugh simultaneously. No added text.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Use eye spacing, nose and jaw as identity checks rather than hairstyle alone.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB068 · Guide office-background-only edit
+
+`edit` · `4:5` · Authorized reference images required
+
+**X source (community report; not independently reproduced)**
+
+- [Julian Goldie SEO · 5 Prompts to Test Google Flow Character Consistency](https://x.com/JulianGoldieSEO/article/2109707716503740878) · 2026-10-12 · Prompt Four follow-up: office background
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Guide office-background-only edit. Suggested aspect ratio: 4:5; set this in your client.
+Image 1 is an approved fictional adult guide photograph. Replace only the background with a quiet office containing one empty desk and one plant. Preserve the person’s placement, pose, gesture, face, glasses, hair, jacket and collar button; allow only edge blending and necessary environmental bounce light. Keep crop fixed, add no computer, people, readable paperwork or lettering.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Compare overlays for silhouette and gesture drift; do not regenerate the person as part of the background edit.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
 ## Publishing and wide visuals
 
 ### NB045 · Nonfiction book cover
@@ -883,6 +1389,28 @@ Maintain clear visual hierarchy, useful negative space and consistent light dire
 ```
 
 **Review:** Check panorama continuity and omit real sponsor logos.
+
+**Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
+
+**Model workflow:** Draft at 1K, then select 2K/4K if needed. Set aspect ratio and resolution in your client; mentioning them in a prompt does not configure the API. Upload references first for edits.
+
+### NB063 · Snowy street ultrawide continuity
+
+`generate` · `8:1` · No reference required
+
+**X source (community report; not independently reproduced)**
+
+- [Michael Aubry · Nano Banana 2.1 is 2x faster than GPT Image 2.5. Here's when that matters.](https://x.com/michaelaubry/article/2107900126920609795) · 2026-10-07 · Use Nano Banana 2.1 when: wide snowy street
+
+The aivideoweb.com team redesigned subjects, composition and checks from the public workflow theme. Not a verbatim source prompt, no source image imported, not independently reproduced.
+
+```text
+Use case: Snowy street ultrawide continuity. Suggested aspect ratio: 8:1; set this in your client.
+An original ultrawide snowy street: low brick houses left, open pedestrian square center, bare trees and café windows right. Blue-gray dawn, snow tracks continuous across the width. Leave open upper-center space for later type but render no text and keep shop signs blank. Avoid repeated building clones; maintain one road perspective and horizon. Select 8:1 in your client; do not stretch a supported frame into that ratio.
+Deliver one finished image per step. Run multi-round or series tasks separately rather than combining them.
+```
+
+**Review:** Check horizon at both ends, cloned buildings, snow-track seams and unintended sign text.
 
 **Focused revision:** Fix only the failed review criterion above. Preserve the subject, composition, palette and all other lettering.
 

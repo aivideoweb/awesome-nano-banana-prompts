@@ -1,0 +1,178 @@
+[
+  {
+    "id": "X001",
+    "platform": "X",
+    "author": "each::labs",
+    "handle": "eachlabs",
+    "url": "https://x.com/eachlabs/article/2108207517385846870",
+    "title": "Everything You Can Do With Nano Banana 2.1",
+    "published_date": "2026-10-08",
+    "date_basis": "X page month/day; year from 2026 context or visible timestamp",
+    "accessed_on": "2026-10-21",
+    "access_method": "public_browser",
+    "evidence_level": "publisher_reported_examples",
+    "claimed_model": "Nano Banana 2.1",
+    "model_claim_verified_in_text": true,
+    "independently_reproduced": false,
+    "source_prompt_available": true,
+    "summary": {
+      "en": "Five illustrated editing examples: embroidery, poster revisions, painted-object replacement, subject relocation and a gallery panorama.",
+      "zh": "五组局部编辑展示：刺绣、海报、绘画物体替换、人物换景和画廊全景。"
+    },
+    "media_reused": false
+  },
+  {
+    "id": "X002",
+    "platform": "X",
+    "author": "Muhammad Ayan",
+    "handle": "socialwithaayan",
+    "url": "https://x.com/socialwithaayan/article/2107789352252350546",
+    "title": "How to Shoot a Full Product Catalog With Nano Banana 2.1 (Full Guide)",
+    "published_date": "2026-10-07",
+    "date_basis": "X page month/day; year from 2026 context or visible timestamp",
+    "accessed_on": "2026-10-21",
+    "access_method": "public_browser",
+    "evidence_level": "publisher_reported_workflow",
+    "claimed_model": "Nano Banana 2.1",
+    "model_claim_verified_in_text": true,
+    "independently_reproduced": false,
+    "source_prompt_available": true,
+    "summary": {
+      "en": "A clothing-catalog workflow with front, back, on-model, flat-lay and detail recipes; warns that unseen garment backs are guesses.",
+      "zh": "服装目录工作流，涵盖正面、背面、上身、平铺及细节；明确提醒未见过的衣服背面属于推测。"
+    },
+    "media_reused": false
+  },
+  {
+    "id": "X003",
+    "platform": "X",
+    "author": "Michael Aubry",
+    "handle": "michaelaubry",
+    "url": "https://x.com/michaelaubry/article/2107900126920609795",
+    "title": "Nano Banana 2.1 is 2x faster than GPT Image 2.5. Here's when that matters.",
+    "published_date": "2026-10-07",
+    "date_basis": "X page month/day; year from 2026 context or visible timestamp",
+    "accessed_on": "2026-10-21",
+    "access_method": "public_browser",
+    "evidence_level": "publisher_reported_small_test",
+    "claimed_model": "Nano Banana 2.1",
+    "model_claim_verified_in_text": true,
+    "independently_reproduced": false,
+    "source_prompt_available": false,
+    "summary": {
+      "en": "Reports kitchen, gym, street and identity tests, plus sign edits and a wide scene. Identity drift and unwanted lettering are acknowledged; speed claims are not adopted as benchmarks.",
+      "zh": "报告厨房、健身房、街景与身份测试，以及招牌编辑和长幅场景；承认身份漂移与多余文字。本项目不采纳标题中的速度结论为基准测试。"
+    },
+    "media_reused": false
+  },
+  {
+    "id": "X004",
+    "platform": "X",
+    "author": "Julian Goldie SEO",
+    "handle": "JulianGoldieSEO",
+    "url": "https://x.com/JulianGoldieSEO/article/2109707716503740878",
+    "title": "5 Prompts to Test Google Flow Character Consistency",
+    "published_date": "2026-10-12",
+    "date_basis": "X page month/day; year from 2026 context or visible timestamp",
+    "accessed_on": "2026-10-21",
+    "access_method": "public_browser",
+    "evidence_level": "publisher_workflow_proposal",
+    "claimed_model": "Nano Banana 2.1",
+    "model_claim_verified_in_text": true,
+    "independently_reproduced": false,
+    "source_prompt_available": true,
+    "summary": {
+      "en": "Defines a guide character, reuses it in a control room and on stage, then suggests focused edits and a laptop series. A tutorial, not an independently reproduced benchmark.",
+      "zh": "定义引导角色，在控制室和舞台复用，再提出局部修改与电脑系列；属于教程，并非独立复现的基准测试。"
+    },
+    "media_reused": false
+  },
+  {
+    "id": "X005",
+    "platform": "X",
+    "author": "Christopher Fryant",
+    "handle": "cfryant",
+    "url": "https://x.com/cfryant/status/2107849002259784148",
+    "title": "Texture and detail tests with Nano Banana 2.1",
+    "published_date": "2026-10-07",
+    "date_basis": "X page month/day; year from 2026 context or visible timestamp",
+    "accessed_on": "2026-10-21",
+    "access_method": "public_browser",
+    "evidence_level": "publisher_reported_visual_test",
+    "claimed_model": "Nano Banana 2.1",
+    "model_claim_verified_in_text": true,
+    "independently_reproduced": false,
+    "source_prompt_available": false,
+    "summary": {
+      "en": "Post explicitly names 2.1 and claims native 4K. Browser review shows an extreme eye/skin-texture close-up; no original prompt is visible.",
+      "zh": "原帖明确写出2.1并声称原生4K；浏览器可见眼部及皮肤纹理特写，未见原始提示词。"
+    },
+    "media_reused": false
+  },
+  {
+    "id": "X006",
+    "platform": "X",
+    "author": "Christopher Fryant",
+    "handle": "cfryant",
+    "url": "https://x.com/cfryant/status/2107552426148745491",
+    "title": "Tiny people in a massive world — first Nano Banana 2.1 test",
+    "published_date": "2026-10-07",
+    "date_basis": "X page month/day; year from 2026 context or visible timestamp",
+    "accessed_on": "2026-10-21",
+    "access_method": "public_browser",
+    "evidence_level": "quoted_post_report",
+    "claimed_model": "Nano Banana 2.1",
+    "model_claim_verified_in_text": true,
+    "independently_reproduced": false,
+    "source_prompt_available": false,
+    "summary": {
+      "en": "Read as a quoted original post within X005: the author describes tiny people in a massive world. No full prompt or settings inspected.",
+      "zh": "通过X005中嵌入的原帖读取；作者描述巨大世界中的微小人物。未检查完整提示词或设置。"
+    },
+    "media_reused": false
+  },
+  {
+    "id": "X007",
+    "platform": "X",
+    "author": "Moinzek",
+    "handle": "moinzek",
+    "url": "https://x.com/moinzek/status/2107922569441722682",
+    "title": "Testing Nano Banana 2.1 within Google Flow",
+    "published_date": "2026-10-08",
+    "date_basis": "X page month/day; year from 2026 context or visible timestamp",
+    "accessed_on": "2026-10-21",
+    "access_method": "public_browser",
+    "evidence_level": "publisher_reported_visual_test",
+    "claimed_model": "Nano Banana 2.1",
+    "model_claim_verified_in_text": true,
+    "independently_reproduced": false,
+    "source_prompt_available": false,
+    "summary": {
+      "en": "Public post identifies Nano Banana 2.1 in Flow. Browser-visible frames show a cinematic creature-eye close-up and forest imagery; no original prompt is visible.",
+      "zh": "公开帖标注在Flow中测试2.1；浏览器可见电影感生物眼部特写及森林画面，未见原始提示词。"
+    },
+    "media_reused": false
+  },
+  {
+    "id": "X008",
+    "platform": "X",
+    "author": "Google Flow",
+    "handle": "FlowbyGoogle",
+    "url": "https://x.com/FlowbyGoogle/status/2110055517116895300",
+    "title": "Community examples of Nano Banana 2.1 strengths",
+    "published_date": "2026-10-14",
+    "date_basis": "X page month/day; year from 2026 context or visible timestamp",
+    "accessed_on": "2026-10-21",
+    "access_method": "public_browser",
+    "evidence_level": "curation_only",
+    "claimed_model": "Nano Banana 2.1",
+    "model_claim_verified_in_text": true,
+    "independently_reproduced": false,
+    "source_prompt_available": false,
+    "summary": {
+      "en": "Public thread links community examples for consistency, detail, natural photography and filmmaking. Used for discovery, not counted again as separate recipe evidence.",
+      "zh": "公开串帖整理一致性、细节、自然摄影与电影案例；仅作发现入口，不重复计作独立案例证据。"
+    },
+    "media_reused": false
+  }
+]
