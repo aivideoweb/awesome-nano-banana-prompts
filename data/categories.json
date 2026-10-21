@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "product",
+    "zh": "电商与产品摄影",
+    "en": "Product photography"
+  },
+  {
+    "slug": "advertising",
+    "zh": "广告与品牌视觉",
+    "en": "Ads and branding"
+  },
+  {
+    "slug": "social",
+    "zh": "社交内容与封面",
+    "en": "Social and thumbnails"
+  },
+  {
+    "slug": "education",
+    "zh": "信息图与教育",
+    "en": "Infographics and learning"
+  },
+  {
+    "slug": "portrait",
+    "zh": "头像与人物摄影",
+    "en": "Portraits and people"
+  },
+  {
+    "slug": "story",
+    "zh": "故事板与漫画",
+    "en": "Stories and storyboards"
+  },
+  {
+    "slug": "design",
+    "zh": "网页与应用概念",
+    "en": "Web and app concepts"
+  },
+  {
+    "slug": "spaces",
+    "zh": "建筑与室内",
+    "en": "Architecture and interiors"
+  },
+  {
+    "slug": "food",
+    "zh": "美食与生活方式",
+    "en": "Food and lifestyle"
+  },
+  {
+    "slug": "game",
+    "zh": "游戏与原创资产",
+    "en": "Games and original assets"
+  },
+  {
+    "slug": "editing",
+    "zh": "多轮编辑与本地化",
+    "en": "Editing and localization"
+  },
+  {
+    "slug": "publishing",
+    "zh": "出版与长幅视觉",
+    "en": "Publishing and wide visuals"
+  }
+]
